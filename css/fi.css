@@ -94,7 +94,7 @@ ul li img{
     padding:80px 0px 90px 0px;
     background: url(/fi-img/assets/asset0.png) center no-repeat;
     background-size: auto 60%;
-    background-position: 590px 120px;
+    background-position: 640px 120px;
 }
 
 .flex-head-content{
@@ -294,10 +294,7 @@ ul li img{
 }
 
 .img-card{
-    height:20vh;
-    background: url(/fi-img/assets/asset\ 12.png) center no-repeat;
-    background-size: 100% 100%;
-    background-position: bottom;
+    width:auto;
 }
 footer ul li img{
     width:100px;
@@ -307,7 +304,7 @@ footer ul li{
     margin-left:20px;
 }
 footer{
-    padding:30px 0px;
+    padding:20px 0px;
     margin:0px 30px;
 }
 footer ul{
