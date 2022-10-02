@@ -141,6 +141,7 @@ ul li img{
 .flex-mobile-card{
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap:2rem;
     margin:40px 0px;
 }
@@ -159,6 +160,7 @@ ul li img{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .section-title{
@@ -229,6 +231,7 @@ ul li img{
     justify-content: center;
     gap:2rem;
     align-items: center;
+    flex-wrap: wrap-reverse;
     margin:60px 0px;
 }
 .first-card-container{
@@ -296,6 +299,7 @@ ul li img{
 .img-card{
     width:auto;
 }
+
 footer ul li img{
     width:100px;
     color:#5f6269;
@@ -306,9 +310,17 @@ footer ul li{
 footer{
     padding:20px 0px;
     margin:0px 30px;
+    width:100vw;
 }
 footer ul{
     display:flex;
     align-items: center;
     list-style-type: none;
+}
+
+
+@media (max-width:600px) {
+    .d-none{
+        display:none;
+    }
 }
